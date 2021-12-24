@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,h,area;
+    printf("enter two parallel sides of trapezium a and b:");
+    scanf("%f %f",&a,&b);
+    printf("enter the value of height of trapezium h: ");
+    scanf("%f",&h);
+    area=(a+b)*h/2;
+    printf("the value of area is: %.2f",area);
+    return 0;
+}

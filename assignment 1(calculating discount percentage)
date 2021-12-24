@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float discount_percentage,price,discount_amount,discount_price;
+    printf("enter the price of item:");
+    scanf("%f",&price);
+    printf("enter the discount percentage given for the item:");
+    scanf("%f",&discount_percentage);
+    discount_amount=discount_percentage*price/100;
+    discount_price=price-discount_percentage;
+    printf("discount amount is: %f",discount_amount);
+    printf("\ndiscount price is: %f",discount_price);
+    return 0;
+}

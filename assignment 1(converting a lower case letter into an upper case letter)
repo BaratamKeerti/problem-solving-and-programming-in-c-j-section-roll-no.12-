@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char alphabet;
+    printf("enter your alphabet in lower case:");
+    scanf("%c",&alphabet);
+    printf("converting the lower case alphabet into an upper case alphabet");
+    printf("\nupper case alphabet of %c is %c",alphabet,alphabet-32);
+}

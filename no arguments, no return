@@ -1,0 +1,24 @@
+#include<stdio.h>
+void sum();
+void sub();
+void sum()
+{
+    int a,b,c;
+    printf("value of a and b are:");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d\n",c);
+}
+void sub()
+{
+    int a,b,c;
+    printf("\nvalue of a and b are:");
+    scanf("%d %d",&a,&b);
+    c=a-b;
+    printf("%d",c);
+}
+int main()
+{
+    sub();
+    sum();
+}

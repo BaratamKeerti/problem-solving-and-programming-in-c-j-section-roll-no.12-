@@ -1,0 +1,35 @@
+#include<stdio.h>
+int add(int i,int j)
+{
+    int k;
+    k=i+j;
+    return k;
+}
+int sub(int l,int m)
+{
+    int n;
+    n=l-m;
+    return n;
+}
+int mul(int x,int y)
+{
+  int z;
+    z=x*y;
+    return z;  
+}
+float div(float u,float v)
+{
+    float w;
+    w=u/v;
+    return w;
+}
+int main()
+{
+    int a,b,c,d;
+    printf("enter the values of a and b:");
+    scanf("%d %d",&a,&b);
+    c=sub(a,b);
+    d=mul(a,b);
+    printf("%d %d",c,d);
+}
+
